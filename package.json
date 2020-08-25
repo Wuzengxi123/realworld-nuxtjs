@@ -1,0 +1,28 @@
+{
+  "name": "realworld-nuxtjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.1",
+    "axios": "^0.20.0",
+    "nuxt": "^2.14.3",
+    "cookieparser": "^0.1.0",
+    "dayjs": "^1.8.33",
+    "js-cookie": "^2.2.1",
+    "markdown-it": "^11.0.0"
+  },
+  "devDependencies": {
+    "@gauseen/nuxt-proxy": "^1.0.1",
+    "@nuxtjs/proxy": "^2.0.1"
+  }
+}
