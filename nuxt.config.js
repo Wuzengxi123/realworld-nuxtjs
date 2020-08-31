@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-08-23 21:37:02
+ * @LastEditTime: 2020-08-31 22:19:54
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /realworld-nuxtjs/nuxt.config.js
+ */
 
 // module.exports = {
 //     // modules: [
@@ -79,10 +87,10 @@ module.exports = {
         );
       }
     },
-    // server:{
-    //   host:'0.0.0.0',//默认为localhost，只能本地访问，想对外也能访问，要设置成0.0.0.0 （0.0.0.0监听所有外网地址。在生产环境服务器上外网环境就能访问到了，在本地的话，局域网都能访问到了）
-    //   port:8889
-    // },
+    server:{
+      host:'0.0.0.0',//默认为localhost，只能本地访问，想对外也能访问，要设置成0.0.0.0 （0.0.0.0监听所有外网地址。在生产环境服务器上外网环境就能访问到了，在本地的话，局域网都能访问到了）
+      port:3003
+    },
     // 插件注册
     plugins: [
         // 波浪线开头表示从根路径触发
